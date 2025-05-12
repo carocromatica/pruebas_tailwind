@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <nav class="bg-blue-700 text-white px-6 py-4 flex justify-between items-center">
+  <div class="text-xl font-bold">MiSitio</div>
+  <ul class="flex space-x-6">
+    <li><a href="#" class="hover:underline">Inicio</a></li>
+    <li><a href="#" class="hover:underline">Servicios</a></li>
+    <li><a href="#" class="hover:underline">Contacto</a></li>
+  </ul>
+</nav>
+     <div class="container mx-auto px-4 py-10">
+  <h1 class="text-4xl font-bold text-purple-600">Hola Tailwind</h1>
+  <p class="mt-4 text-gray-700">¡Ya estás usando Tailwind CSS!</p>
+
+  <div class="overflow-x-auto">
+    <table class="min-w-full bg-white shadow-md rounded-lg overflow-hidden">
+      <thead class="bg-pink-600 text-white">
+        <tr>
+          <th class="py-3 px-6 text-left">Nombre</th>
+          <th class="py-3 px-6 text-left">Correo</th>
+          <th class="py-3 px-6 text-left">Rol</th>
+        </tr>
+      </thead>
+      <tbody class="text-gray-700">
+        <tr class="border-b hover:bg-gray-50">
+          <td class="py-3 px-6">Carolina Torres</td>
+          <td class="py-3 px-6">caro@mail.com</td>
+          <td class="py-3 px-6">Diseñadora UX</td>
+        </tr>
+        <tr class="border-b hover:bg-gray-50">
+          <td class="py-3 px-6">Lucas Pérez</td>
+          <td class="py-3 px-6">lucas@mail.com</td>
+          <td class="py-3 px-6">Desarrollador</td>
+        </tr>
+        <tr class="hover:bg-gray-50">
+          <td class="py-3 px-6">Fernanda Ríos</td>
+          <td class="py-3 px-6">fer@mail.com</td>
+          <td class="py-3 px-6">QA Tester</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+
+  <h1 class="text-5xl font-bold mb-4">Encabezado H1</h1>
+  <h2 class="text-4xl font-semibold mb-3">Encabezado H2</h2>
+  <h3 class="text-3xl font-medium mb-3">Encabezado H3</h3>
+  <h4 class="text-2xl font-medium mb-2">Encabezado H4</h4>
+  <h5 class="text-xl font-medium mb-2">Encabezado H5</h5>
+  <h6 class="text-lg font-medium mb-4">Encabezado H6</h6>
+
+  <p class="text-base mb-4">
+    Este es un párrafo con tamaño normal. Tailwind permite aplicar clases utilitarias para controlar el
+    tamaño, color, peso y más.
+  </p>
+
+  <p class="text-sm text-gray-600 mb-4">
+    Este es un párrafo más pequeño y con un tono gris claro.
+  </p>
+
+  <p class="text-lg font-light italic mb-4">
+    Párrafo con texto grande, liviano e itálico.
+  </p>
+
+  <p class="font-bold text-purple-700 mb-4">
+    Párrafo con texto en negrita y color morado.
+  </p>
+
+  <p class="underline text-blue-600">
+    Este texto está subrayado y tiene color azul.
+  </p>
+
+    <form action="#" method="POST" class="space-y-4">
+      <div>
+        <label class="block mb-1 text-gray-700" for="name">Nombre</label>
+        <input
+          class="w-full border border-gray-300 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-purple-500"
+          type="text"
+          id="name"
+          name="name"
+          required
+        />
+      </div>
+
+      <div>
+        <label class="block mb-1 text-gray-700" for="email">Correo electrónico</label>
+        <input
+          class="w-full border border-gray-300 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+          type="email"
+          id="email"
+          name="email"
+          required
+        />
+      </div>
+
+      <div>
+        <label class="block mb-1 text-gray-700" for="message">Mensaje</label>
+        <textarea
+          class="w-full border border-gray-300 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-purple-500"
+          id="message"
+          name="message"
+          rows="4"
+          required
+        ></textarea>
+      </div>
+
+      <button
+        type="submit"
+        class="w-full bg-purple-600 text-white py-2 rounded hover:bg-purple-700 transition"
+      >
+        Enviar
+      </button>
+    </form>
+  </div>
+</div>
+</body>
+</html>
